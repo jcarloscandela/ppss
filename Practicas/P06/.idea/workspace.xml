@@ -1,0 +1,991 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="59f39023-4472-447c-a4e9-b7ac16de1875" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/../P07/.idea/.name" beforeDir="false" afterPath="$PROJECT_DIR$/../P07/.idea/.name" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../P07/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/.idea/compiler.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/.idea/encodings.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/.idea/misc.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/.idea/modules.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/.idea/vcs.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/.idea/workspace.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/hotel/Hotel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/hotel/HotelModel.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/hotel/P07.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/hotel/hotel.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/hotel/index.jsp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/hotel/pom.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/bo/AlumnoBR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/bo/BOException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/bo/MatriculaBO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/bo/MatriculaBR.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/dao/DAOException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/dao/FactoriaDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/dao/FuenteDatosJDBC.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/dao/IAlumnoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/dao/IAsignaturaDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/dao/IMatriculaDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/dao/JDBCAlumnoDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/dao/JDBCAsignaturaDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/dao/JDBCMatriculaDAO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/proxy/ProxyDatosEconomicos.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/proxy/ProxyException.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/to/AlumnoTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/to/AsignaturaTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/to/DatosEconomicosAlumnoTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/to/MatriculaTO.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../P07/P07-multimodulos/matriculacion/to/ReciboMatriculaTO.java" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/gestorLlamadasMocks/target/" />
+    <ignored path="$PROJECT_DIR$/target/" />
+    <ignored path="$PROJECT_DIR$/premio/target/" />
+    <ignored path="$PROJECT_DIR$/reserva/target/" />
+    <ignored path="$PROJECT_DIR$/factura/target/" />
+    <ignored path="$PROJECT_DIR$/listados/target/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DatabaseView">
+    <option name="SHOW_INTERMEDIATE" value="true" />
+    <option name="GROUP_DATA_SOURCES" value="true" />
+    <option name="GROUP_SCHEMA" value="true" />
+    <option name="GROUP_CONTENTS" value="false" />
+    <option name="SORT_POSITIONED" value="false" />
+    <option name="SHOW_EMPTY_GROUPS" value="false" />
+    <option name="AUTO_SCROLL_FROM_SOURCE" value="false" />
+    <option name="HIDDEN_KINDS">
+      <set />
+    </option>
+    <expand />
+    <select />
+  </component>
+  <component name="FavoritesManager">
+    <favorites_list name="P06-mocks" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listados/src/main/java/ppssStubSinEasyMock/Listados.java">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listados/src/test/java/ppss/testListadoMock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/listados/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="390">
+              <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/premio/pom.xml">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="450">
+              <caret line="30" selection-start-line="30" selection-end-line="30" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reserva/src/test/java/ppss/ReservaTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1170">
+              <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="63" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/reserva/src/test/java/ppss/ReservaTestStub.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="339">
+              <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/factura/src/test/java/ppss/testStubEasyMock.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="690">
+              <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reserva/target/test-classes/ppss/ReservaTestStub.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1200">
+              <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/reserva/target/test-classes/ppss/ReservaTest.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1845">
+              <caret line="134" column="28" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/premio/src/test/java/ppss/PremioTest.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="570">
+              <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>next</find>
+    </findStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../.." />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/gestorLlamadasMocks/src/main/java/GestorLlamadas.java" />
+        <option value="$PROJECT_DIR$/gestorLlamadasMocks/src/main/java/ppss/GestorLlamadas.java" />
+        <option value="$PROJECT_DIR$/gestorLlamadasMocks/src/main/java/ppss/Calendario.java" />
+        <option value="$PROJECT_DIR$/gestorLlamadasMocks/pom.xml" />
+        <option value="$PROJECT_DIR$/gestorLlamadasMocks/src/test/java/ppss/GestorLlamadasTest.java" />
+        <option value="$PROJECT_DIR$/premio/src/main/java/Premio.java" />
+        <option value="$PROJECT_DIR$/premio/src/main/java/ppss/ClienteWebServiceException.java" />
+        <option value="$PROJECT_DIR$/premio/src/main/java/ppss/Premio.java" />
+        <option value="$PROJECT_DIR$/premio/src/main/java/ppss/ClienteWebService.java" />
+        <option value="$PROJECT_DIR$/premio/src/test/java/ppss/GestorLlamadasTest.java" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/reserva/pom.xml" />
+        <option value="$PROJECT_DIR$/reserva/src/main/java/ppss/Usuario.java" />
+        <option value="$PROJECT_DIR$/reserva/src/main/java/ppss/excepciones/FactoriaBOs.java" />
+        <option value="$PROJECT_DIR$/reserva/src/main/java/ppss/excepciones/IsbnInvalidoException.java" />
+        <option value="$PROJECT_DIR$/reserva/src/main/java/ppss/excepciones/JDBCException.java" />
+        <option value="$PROJECT_DIR$/reserva/src/main/java/ppss/excepciones/SocioInvalidoException.java" />
+        <option value="$PROJECT_DIR$/reserva/src/main/java/ppss/Reserva.java" />
+        <option value="$PROJECT_DIR$/reserva/src/main/java/ppss/FactoriaBOs.java" />
+        <option value="$PROJECT_DIR$/reserva/src/main/java/ppss/IOperacionBO.java" />
+        <option value="$PROJECT_DIR$/reserva/src/main/java/ppss/excepciones/ReservaException.java" />
+        <option value="$PROJECT_DIR$/factura/pom.xml" />
+        <option value="$PROJECT_DIR$/factura/src/main/java/ppss/excepciones/FacturaException.java" />
+        <option value="$PROJECT_DIR$/factura/src/main/java/ppss/Factura.java" />
+        <option value="$PROJECT_DIR$/factura/src/main/java/ppss/GestorPedidos.java" />
+        <option value="$PROJECT_DIR$/factura/src/main/java/ppss/Buscador.java" />
+        <option value="$PROJECT_DIR$/factura/src/main/java/ppss/Cliente.java" />
+        <option value="$PROJECT_DIR$/factura/src/test/java/ppss/GestorPedidosTestable.java" />
+        <option value="$PROJECT_DIR$/factura/src/test/java/ppss/BuscadorStub.java" />
+        <option value="$PROJECT_DIR$/factura/src/test/java/ppss/testStubSinEasyMock.java" />
+        <option value="$PROJECT_DIR$/factura/src/test/java/ppss/testMockEasyMock.java" />
+        <option value="$PROJECT_DIR$/reserva/src/test/java/ppss/ReservaTest.java" />
+        <option value="$PROJECT_DIR$/listados/pom.xml" />
+        <option value="$PROJECT_DIR$/listados/src/main/java/Connectionection.java" />
+        <option value="$PROJECT_DIR$/listados/src/main/java/Listados.java" />
+        <option value="$PROJECT_DIR$/listados/src/test/java/ppss/testListado.java" />
+        <option value="$PROJECT_DIR$/premio/pom.xml" />
+        <option value="$PROJECT_DIR$/listados/src/main/java/ppss/Listados.java" />
+        <option value="$PROJECT_DIR$/listados/src/main/java/ppssStubSinEasyMock/Listados.java" />
+        <option value="$PROJECT_DIR$/listados/src/test/java/ppssStubSinEasyMock/ConnectionStub.java" />
+        <option value="$PROJECT_DIR$/listados/src/test/java/ppssStubSinEasyMock/StatementStub.java" />
+        <option value="$PROJECT_DIR$/listados/src/test/java/ppssStubSinEasyMock/testListadoStub.java" />
+        <option value="$PROJECT_DIR$/listados/src/test/java/ppssStubSinEasyMock/testListado.java" />
+        <option value="$PROJECT_DIR$/listados/src/test/java/ppssStubSinEasyMock/ResultSetStub.java" />
+        <option value="$PROJECT_DIR$/factura/src/test/java/ppss/testStubEasyMock.java" />
+        <option value="$PROJECT_DIR$/reserva/src/test/java/ppss/ReservaTestStub.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="/usr/local/apache-maven-3.6.0" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="MavenProjectNavigator">
+    <treeState>
+      <expand>
+        <path>
+          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
+          <item name="premio" type="9519ce18:MavenProjectsStructure$ProjectNode" />
+        </path>
+      </expand>
+      <select />
+    </treeState>
+  </component>
+  <component name="ProjectFrameBounds">
+    <option name="width" value="960" />
+    <option name="height" value="1056" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+      <pane id="ProjectPane" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1552914404630" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="jdk.selected.JAVA_MODULE" value="1.8" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/webClient" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="nodejs_package_manager_path" value="npm" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="ppss" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="ppssStubSinEasyMock" />
+      <recent name="ppss" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="ppss" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+      <recent name="ppss" />
+      <recent name="ppss.excepciones" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager" selected="JUnit.ReservaTestStub">
+    <configuration name="PremioTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="premio" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ppssStubSinEasyMock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ppss" />
+      <option name="MAIN_CLASS_NAME" value="ppss.PremioTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservaTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reserva" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ppssStubSinEasyMock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ppss" />
+      <option name="MAIN_CLASS_NAME" value="ppss.ReservaTest" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ReservaTestStub" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="reserva" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ppss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ppss" />
+      <option name="MAIN_CLASS_NAME" value="ppss.ReservaTestStub" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testListadoMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="listados" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ppssStubSinEasyMock.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ppss" />
+      <option name="MAIN_CLASS_NAME" value="ppss.testListadoMock" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="testStubEasyMock" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="factura" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ppss.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="ppss" />
+      <option name="MAIN_CLASS_NAME" value="ppss.testStubEasyMock" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.ReservaTestStub" />
+        <item itemvalue="JUnit.testStubEasyMock" />
+        <item itemvalue="JUnit.PremioTest" />
+        <item itemvalue="JUnit.testListadoMock" />
+        <item itemvalue="JUnit.ReservaTest" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="59f39023-4472-447c-a4e9-b7ac16de1875" name="Default Changelist" comment="" />
+      <created>1552418173701</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1552418173701</updated>
+      <workItem from="1552418177100" duration="4196000" />
+      <workItem from="1552500207529" duration="5149000" />
+      <workItem from="1552730563184" duration="58000" />
+      <workItem from="1552731158663" duration="9669000" />
+      <workItem from="1552747395369" duration="6749000" />
+      <workItem from="1552761052564" duration="690000" />
+      <workItem from="1552831860376" duration="8820000" />
+      <workItem from="1552897957595" duration="2794000" />
+      <workItem from="1552910072522" duration="4989000" />
+      <workItem from="1553710843574" duration="1015000" />
+      <workItem from="1554310543373" duration="225000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TestHistory">
+    <history-entry file="ReservaTestStub - 2019.03.18 at 13h 37m 54s.xml">
+      <configuration name="ReservaTestStub" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservaTestStub - 2019.03.18 at 13h 39m 13s.xml">
+      <configuration name="ReservaTestStub" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservaTestStub - 2019.03.18 at 13h 41m 36s.xml">
+      <configuration name="ReservaTestStub" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservaTestStub - 2019.03.18 at 13h 46m 38s.xml">
+      <configuration name="ReservaTestStub" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservaTestStub - 2019.03.18 at 13h 50m 35s.xml">
+      <configuration name="ReservaTestStub" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservaTestStub - 2019.03.18 at 13h 51m 44s.xml">
+      <configuration name="ReservaTestStub" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservaTestStub - 2019.03.18 at 13h 53m 13s.xml">
+      <configuration name="ReservaTestStub" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservaTestStub - 2019.03.18 at 13h 53m 59s.xml">
+      <configuration name="ReservaTestStub" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservaTestStub - 2019.03.18 at 14h 04m 47s.xml">
+      <configuration name="ReservaTestStub" configurationId="JUnit" />
+    </history-entry>
+    <history-entry file="ReservaTestStub - 2019.03.18 at 14h 05m 55s.xml">
+      <configuration name="ReservaTestStub" configurationId="JUnit" />
+    </history-entry>
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="44369000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="0" width="960" height="1056" extended-state="0" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49325338" visible="true" weight="0.21271929" />
+      <window_info id="Image Layers" order="1" />
+      <window_info id="Designer" order="2" />
+      <window_info id="UI Designer" order="3" />
+      <window_info id="Capture Tool" order="4" />
+      <window_info id="Structure" order="5" sideWeight="0.50674665" side_tool="true" visible="true" weight="0.21271929" />
+      <window_info id="Favorites" order="6" sideWeight="0.5017301" side_tool="true" weight="0.23026316" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" sideWeight="0.4989035" weight="0.32901832" />
+      <window_info anchor="bottom" id="Debug" order="2" weight="0.3997555" />
+      <window_info anchor="bottom" id="Cvs" order="3" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="4" weight="0.4" />
+      <window_info anchor="bottom" id="Run" order="5" sideWeight="0.7513341" weight="0.28054863" />
+      <window_info anchor="bottom" id="TODO" order="6" sideWeight="0.4994664" weight="0.32939914" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Version Control" order="8" sideWeight="0.4994664" weight="0.32939914" />
+      <window_info anchor="bottom" id="Database Changes" order="9" />
+      <window_info anchor="bottom" id="Event Log" order="10" sideWeight="0.24866596" side_tool="true" visible="true" weight="0.28047466" />
+      <window_info anchor="bottom" id="Terminal" order="11" sideWeight="0.49448124" weight="0.32828283" />
+      <window_info anchor="bottom" id="Messages" order="12" sideWeight="0.49306297" weight="0.32668328" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Database" order="1" weight="0.32894737" />
+      <window_info anchor="right" id="Ant Build" order="2" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="3" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+      <window_info anchor="right" id="Maven" order="8" visible="true" weight="0.032894738" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/easymock/easymock/4.0.2/easymock-4.0.2.jar!/org/easymock/internal/ObjectMethodsFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="258">
+          <caret line="74" selection-start-line="74" selection-end-line="74" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/easymock/easymock/4.0.2/easymock-4.0.2.jar!/org/easymock/internal/MocksControl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="38" selection-start-line="38" selection-end-line="38" />
+          <folding>
+            <element signature="e#1295#1296#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/easymock/easymock/4.0.2/easymock-4.0.2.jar!/org/easymock/internal/Invocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/easymock/easymock/4.0.2/easymock-4.0.2.jar!/org/easymock/internal/MockInvocationHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/easymock/easymock/4.0.2/easymock-4.0.2.jar!/org/easymock/internal/RecordState.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="29" selection-start-line="29" selection-end-line="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/easymock/easymock/4.0.2/easymock-4.0.2.jar!/org/easymock/internal/ExpectedInvocation.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="27" selection-start-line="27" selection-end-line="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/easymock/easymock/4.0.2/easymock-4.0.2.jar!/org/easymock/internal/LastControl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="585">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml" />
+    <entry file="file://$PROJECT_DIR$/reserva (1).iml" />
+    <entry file="file://$PROJECT_DIR$/reserva/src/main/java/ppss/excepciones/SocioInvalidoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="53" selection-start-line="2" selection-start-column="53" selection-end-line="2" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/src/main/java/ppss/Usuario.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="17" selection-start-line="3" selection-start-column="17" selection-end-line="3" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/src/main/java/ppss/FactoriaBOs.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="40" selection-start-line="6" selection-start-column="40" selection-end-line="6" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#157#158#0" expanded="true" />
+            <element signature="e#235#236#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gestorLlamadasMocks/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="40" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factura/src/main/java/ppss/excepciones/FacturaException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factura/src/main/java/ppss/Factura.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="35" column="37" selection-start-line="35" selection-start-column="37" selection-end-line="35" selection-end-column="37" />
+          <folding>
+            <element signature="e#571#572#0" expanded="true" />
+            <element signature="e#638#639#0" expanded="true" />
+            <element signature="e#759#760#0" expanded="true" />
+            <element signature="e#791#792#0" expanded="true" />
+            <element signature="e#841#842#0" expanded="true" />
+            <element signature="e#883#884#0" expanded="true" />
+            <element signature="e#958#959#0" expanded="true" />
+            <element signature="e#1015#1016#0" expanded="true" />
+            <element signature="e#1065#1066#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factura/src/main/java/ppss/GestorPedidos.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="21" column="48" selection-start-line="21" selection-start-column="48" selection-end-line="21" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factura/src/test/java/ppss/testStubSinEasyMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="675">
+          <caret line="53" column="9" selection-start-line="53" selection-start-column="9" selection-end-line="53" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#596#597#0" expanded="true" />
+            <element signature="e#652#653#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/src/main/java/ppss/IOperacionBO.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="6" column="13" selection-start-line="6" selection-start-column="13" selection-end-line="6" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factura/src/test/java/ppss/BuscadorStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="43" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factura/src/test/java/ppss/GestorPedidosTestable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="45" selection-start-line="10" selection-start-column="45" selection-end-line="10" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factura/src/main/java/ppss/Buscador.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="6" column="44" selection-start-line="6" selection-start-column="44" selection-end-line="6" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/gestorLlamadasMocks/src/test/java/ppss/GestorLlamadasTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="525">
+          <caret line="40" column="9" selection-start-line="40" selection-start-column="9" selection-end-line="40" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factura/src/test/java/ppss/testMockEasyMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="23" column="24" selection-start-line="23" selection-start-column="24" selection-end-line="23" selection-end-column="24" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/reserva.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/src/main/java/ppss/excepciones/ReservaException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="26" selection-start-line="4" selection-start-column="26" selection-end-line="4" selection-end-column="26" />
+          <folding>
+            <element signature="e#126#127#0" expanded="true" />
+            <element signature="e#161#162#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factura/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="528">
+          <caret line="41" column="10" selection-start-line="41" selection-start-column="10" selection-end-line="41" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="2" selection-start-line="9" selection-start-column="2" selection-end-line="45" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/src/main/java/ppss/excepciones/IsbnInvalidoException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="52" selection-start-line="2" selection-start-column="43" selection-end-line="2" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/src/main/java/ppss/excepciones/JDBCException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="44" selection-start-line="2" selection-start-column="44" selection-end-line="2" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/src/main/java/ppss/Reserva.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="21" column="19" selection-start-line="21" selection-start-column="12" selection-end-line="21" selection-end-column="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factura/src/main/java/ppss/Cliente.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listados/src/main/java/Connectionection.java" />
+    <entry file="file://$PROJECT_DIR$/listados/listados.iml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/premio/src/main/java/ppss/ClienteWebService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="45">
+          <caret line="3" column="67" selection-start-line="3" selection-start-column="67" selection-end-line="3" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/premio/src/main/java/ppss/ClienteWebServiceException.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="57" selection-start-line="2" selection-start-column="57" selection-end-line="2" selection-end-column="57" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/premio/src/main/java/ppss/Premio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listados/src/main/java/ppss/Listados.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15">
+          <caret line="1" selection-start-line="1" selection-end-line="23" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listados/src/test/java/ppssStubSinEasyMock/testListado.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="30" column="57" selection-start-line="30" selection-start-column="57" selection-end-line="30" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listados/src/test/java/ppssStubSinEasyMock/ResultSetStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="136" column="20" selection-start-line="136" selection-start-column="20" selection-end-line="136" selection-end-column="20" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listados/src/test/java/ppssStubSinEasyMock/StatementStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="12" column="67" selection-start-line="12" selection-start-column="67" selection-end-line="12" selection-end-column="67" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listados/src/test/java/ppssStubSinEasyMock/ConnectionStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="165">
+          <caret line="17" column="17" selection-start-line="17" selection-start-column="17" selection-end-line="17" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#295#296#0" expanded="true" />
+            <element signature="e#323#324#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listados/src/main/java/ppssStubSinEasyMock/Listados.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listados/src/test/java/ppss/testListadoMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="33" column="4" selection-start-line="33" selection-start-column="4" selection-end-line="33" selection-end-column="4" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/listados/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="390">
+          <caret line="26" column="17" selection-start-line="26" selection-start-column="17" selection-end-line="26" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/premio/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="450">
+          <caret line="30" selection-start-line="30" selection-end-line="30" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/src/test/java/ppss/ReservaTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1170">
+          <caret line="89" column="8" selection-start-line="89" selection-start-column="8" selection-end-line="89" selection-end-column="63" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/factura/src/test/java/ppss/testStubEasyMock.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="690">
+          <caret line="52" column="29" selection-start-line="52" selection-start-column="29" selection-end-line="52" selection-end-column="29" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/target/test-classes/ppss/ReservaTestStub.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1200">
+          <caret line="91" column="38" selection-start-line="91" selection-start-column="38" selection-end-line="91" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/target/test-classes/ppss/ReservaTest.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1845">
+          <caret line="134" column="28" selection-start-line="134" selection-start-column="28" selection-end-line="134" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/premio/src/test/java/ppss/PremioTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="570">
+          <caret line="44" column="16" selection-start-line="44" selection-start-column="16" selection-end-line="44" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/reserva/src/test/java/ppss/ReservaTestStub.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="339">
+          <caret line="78" column="38" lean-forward="true" selection-start-line="78" selection-start-column="38" selection-end-line="78" selection-end-column="38" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="ArtifactsStructureConfigurable.UI">
+        <settings>
+          <artifact-editor />
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="FacetStructureConfigurable.UI">
+        <settings>
+          <last-edited>No facets are configured</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="GlobalLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="JdkListConfigurable.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ModuleStructureConfigurable.UI">
+        <settings>
+          <last-edited>gestorLlamadasMocks</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+                <option value="0.6" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectJDKs.UI">
+        <settings>
+          <last-edited>1.8</last-edited>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>

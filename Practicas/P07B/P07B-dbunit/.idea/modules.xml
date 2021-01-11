@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/dbunitexample/dbunitexample.iml" filepath="$PROJECT_DIR$/dbunitexample/dbunitexample.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matriculacion/matriculacion.iml" filepath="$PROJECT_DIR$/matriculacion/matriculacion.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matriculacion/matriculacion-bo.iml" filepath="$PROJECT_DIR$/matriculacion/matriculacion-bo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matriculacion/matriculacion-comun.iml" filepath="$PROJECT_DIR$/matriculacion/matriculacion-comun.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matriculacion/matriculacion-dao.iml" filepath="$PROJECT_DIR$/matriculacion/matriculacion-dao.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matriculacion/matriculacion-proxy.iml" filepath="$PROJECT_DIR$/matriculacion/matriculacion-proxy.iml" />
+      <module fileurl="file://$PROJECT_DIR$/matriculacion/maven-archiver (1).iml" filepath="$PROJECT_DIR$/matriculacion/maven-archiver (1).iml" />
+      <module fileurl="file://$PROJECT_DIR$/matriculacion/maven-archiver (2).iml" filepath="$PROJECT_DIR$/matriculacion/maven-archiver (2).iml" />
+      <module fileurl="file://$PROJECT_DIR$/matriculacion/maven-archiver (3).iml" filepath="$PROJECT_DIR$/matriculacion/maven-archiver (3).iml" />
+      <module fileurl="file://$PROJECT_DIR$/matriculacion/maven-archiver (4).iml" filepath="$PROJECT_DIR$/matriculacion/maven-archiver (4).iml" />
+    </modules>
+  </component>
+</project>

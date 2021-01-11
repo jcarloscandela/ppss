@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="CompilerConfiguration">
+    <annotationProcessing>
+      <profile name="Maven default annotation processors profile" enabled="true">
+        <sourceOutputDir name="target/generated-sources/annotations" />
+        <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
+        <outputRelativeToContentRoot value="true" />
+        <module name="factura" />
+        <module name="gestorLlamadasMocks" />
+        <module name="listados" />
+        <module name="P06" />
+        <module name="premio" />
+        <module name="premio (1)" />
+        <module name="reserva" />
+      </profile>
+    </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="factura" target="1.8" />
+      <module name="gestorLlamadasMocks" target="1.8" />
+      <module name="listados" target="1.8" />
+      <module name="P06" target="1.5" />
+      <module name="premio" target="1.8" />
+      <module name="premio (1)" target="1.5" />
+      <module name="reserva" target="1.8" />
+      <module name="reserva (1)" target="1.5" />
+    </bytecodeTargetLevel>
+  </component>
+</project>

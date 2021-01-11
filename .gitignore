@@ -1,0 +1,4 @@
+# ignore Maven generated target folders
+target
+# ignore Mac generated folder
+__MACOSX

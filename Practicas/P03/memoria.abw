@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE abiword PUBLIC "-//ABISOURCE//DTD AWML 1.0 Strict//EN" "http://www.abisource.com/awml.dtd">
+<abiword template="false" xmlns:ct="http://www.abisource.com/changetracking.dtd" xmlns:fo="http://www.w3.org/1999/XSL/Format" xmlns:math="http://www.w3.org/1998/Math/MathML" xid-max="62" xmlns:dc="http://purl.org/dc/elements/1.1/" styles="unlocked" fileformat="1.1" xmlns:svg="http://www.w3.org/2000/svg" xmlns:awml="http://www.abisource.com/awml.dtd" xmlns="http://www.abisource.com/awml.dtd" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.9.1" xml:space="preserve" props="dom-dir:ltr; document-footnote-restart-section:0; document-endnote-type:numeric; document-endnote-place-enddoc:1; document-endnote-initial:1; lang:es-ES; document-endnote-restart-section:0; document-footnote-restart-page:0; document-footnote-type:numeric; document-footnote-initial:1; document-endnote-place-endsection:0">
+<!-- ======================================================================== -->
+<!-- This file is an AbiWord document.                                        -->
+<!-- AbiWord is a free, Open Source word processor.                           -->
+<!-- More information about AbiWord is available at http://www.abisource.com/ -->
+<!-- You should not edit this file by hand.                                   -->
+<!-- ======================================================================== -->
+
+<metadata>
+<m key="abiword.date_last_changed">Tue Feb 26 21:48:50 2019
+</m>
+<m key="abiword.generator">AbiWord</m>
+<m key="dc.creator">ppss</m>
+<m key="dc.date">Wed Feb 20 19:51:55 2019
+</m>
+<m key="dc.format">application/x-abiword</m>
+</metadata>
+<rdf>
+</rdf>
+<history version="4" edit-time="171002" last-saved="1551214130" uid="25d8ba20-353e-11e9-9b54-eaa7fad7acc2">
+<version id="1" started="1550688715" uid="97f4fce8-3540-11e9-9b54-eaa7fad7acc2" auto="0" top-xid="24"/>
+<version id="4" started="1551044789" uid="ebf8d000-3a07-11e9-901a-cdfb47be59c1" auto="0" top-xid="35"/>
+</history>
+<styles>
+<s type="P" name="Heading 1" basedon="Normal" followedby="Normal" props="font-size:17pt; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:DejaVu Sans; keep-with-next:1"/>
+<s type="P" name="Normal" followedby="Current Settings" props="font-family:Times New Roman; margin-top:0pt; color:000000; margin-left:0pt; bgcolor:transparent; widows:2; font-style:normal; text-indent:0in; text-position:normal; margin-bottom:0pt; font-weight:normal; line-height:1.0; text-align:left; font-variant:normal; text-decoration:none; margin-right:0pt; font-size:12pt; font-stretch:normal"/>
+<s type="P" name="Heading 2" basedon="Normal" followedby="Normal" props="keep-with-next:1; margin-top:22pt; font-weight:bold; margin-bottom:3pt; font-family:DejaVu Sans; font-size:14pt"/>
+<s type="P" name="Numbered Heading 2" basedon="Heading 2" followedby="Normal" props="list-delim:%L.; list-style:Numbered List; start-value:1; field-color:transparent; field-font:DejaVu Sans; margin-left:0.0in; text-indent:0.0in; tabstops:0.3in/L0"/>
+</styles>
+<lists>
+<l id="1000" parentid="0" type="0" start-value="1" list-delim="%L." list-decimal=""/>
+</lists>
+<pagesize pagetype="A4" orientation="portrait" width="8.267717" height="11.692913" units="in" page-scale="1.000000"/>
+<section xid="4" props="page-margin-footer:0.5000in; page-margin-header:0.5000in; page-margin-right:1.0000in; page-margin-left:1.0000in; page-margin-top:1.0000in; page-margin-bottom:1.0000in">
+<p style="Heading 1" xid="5">P03<c></c></p>
+<p style="Normal" xid="2"><c></c><c></c></p>
+<p style="Normal" xid="3">Cosas importantes:<c></c></p>
+<p style="Normal" xid="1">- Identificamos los drivers con @test<c></c></p>
+<p style="Normal" xid="6">- Anotaciones @BeforeEach, @AfterEach @BeforeAll @AfterAll<c></c></p>
+<p style="Normal" xid="7">- Tests unitarios, usan la goal surefire y test (maven-surefire-plugin)<c></c></p>
+<p style="Normal" xid="9">	[Los informes en target/surefire-reports]<c></c></p>
+<p style="Normal" xid="10">-Tests de integración, usan la goal failsafe y integration-test(maven-failsafe-plugin)<c></c></p>
+<p style="Normal" xid="12">-Goal verify del pluginfailsafe -&gt; si se produce un error interrumpe la construcción del proyecto.<c></c></p>
+<p style="Normal" xid="13"><c></c><c></c></p>
+<p style="Normal" xid="14">-Surefire y failsafe ejecutan todos los test<c></c></p>
+<p style="Normal" xid="15">Si queremos ejecutar solo algunos test anotación @tag (a la clase, al método, a ambos)<c></c></p>
+<p style="Normal" xid="16">Configurar plugins &lt;group&gt; &lt;excludeGroups&gt;<c></c></p>
+<p style="Normal" xid="17">-Configurations<c></c></p>
+<p style="Normal" xid="18">-Si el resultado esperado es una excepción: assertThrows<c></c></p>
+<p style="Normal" xid="20">- Para poder implementar/compilar tests necesitamos la libreria junit-jupiter-engine<c></c></p>
+<p style="Normal" xid="21">- Si los test son parametrizados, necesitamos la libreria junit-jupiter-params<c></c></p>
+<p style="Normal" xid="19"><c></c><c></c></p>
+<p style="Heading 2" xid="8">Ejercicio 1<c></c></p>
+<p style="Normal" xid="25">B) Diferencia entre <c props="font-weight:bold">mvn compiler:testCompile</c> y <c props="font-weight:bold">mvn test-compile</c>:</p>
+<p style="Normal" xid="27"><c props="font-family:Times New Roman; text-decoration:none; color:000000; font-size:12pt; text-position:normal; font-weight:bold; font-style:normal; lang:es-ES">mvn test-compile</c><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:es-ES"> ejecuta las siguientes fases:</c></p>
+<p style="Normal" xid="29"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:es-ES">1. default-resources</c></p>
+<p style="Normal" xid="30"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:es-ES">2. default-compile</c></p>
+<p style="Normal" xid="22">3. default-testResources</p>
+<p style="Normal" xid="33">4. default-testCompile</p>
+<p style="Normal" xid="34">En cambio <c props="font-weight:bold">mvn compiler:testCompile</c> ejecuta </p>
+<p style="Normal" xid="35">1.testCompile(default-cli)</p>
+<p style="Normal" xid="36"><c></c></p>
+<p style="Normal" xid="37">C) Implementado</p>
+<p style="Normal" xid="38">D) Implementado</p>
+<p style="Normal" xid="39"><c></c></p>
+<p level="1" listid="1000" parentid="0" style="Numbered Heading 2" xid="32" props="list-delim:%L.; list-style:Numbered List; start-value:1; margin-left:0.0000in; text-indent:0.0000in; field-font:DejaVu Sans"><c props="list-tag:1001"></c><field type="list_label" xid="40" props="width:0in; font-family:DejaVu Sans; display:inline; font-style:normal; font-weight:bold; bgcolor:transparent; lang:es-ES; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:14pt; height:0in; list-style:Numbered List; font-stretch:normal"></field><c props="width:0in; font-family:DejaVu Sans; display:inline; font-style:normal; font-weight:bold; bgcolor:transparent; lang:es-ES; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:14pt; height:0in; list-style:Numbered List; font-stretch:normal">	</c>Ejercicio 2<c></c></p>
+<p style="Normal" xid="54">A)</p>
+<p style="Normal" xid="43"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:es-ES">B) </c></p>
+<p style="Normal" xid="52" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:es-ES; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">C) </c></p>
+<p style="Normal" xid="53" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:es-ES; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">D) </c></p>
+<p level="1" listid="1000" style="Numbered Heading 2" xid="23" props="font-family:Times New Roman; font-style:normal; margin-left:0.0000in; start-value:1; text-decoration:none; font-weight:normal; text-position:normal; list-delim:%L.; lang:es-ES; list-style:Numbered List; color:000000; text-indent:0.0000in; font-size:12pt; field-font:DejaVu Sans"><c props="list-tag:1002"></c><field type="list_label" xid="41" props="width:0in; font-family:DejaVu Sans; display:inline; font-style:normal; font-weight:bold; bgcolor:transparent; lang:es-ES; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:14pt; height:0in; list-style:Numbered List; font-stretch:normal"></field><c props="width:0in; font-family:DejaVu Sans; display:inline; font-style:normal; font-weight:bold; bgcolor:transparent; lang:es-ES; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:14pt; height:0in; list-style:Numbered List; font-stretch:normal">	</c>Ejercicio 3<c></c></p>
+<p style="Normal" xid="55" props="lang:es-ES"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:es-ES">A)</c></p>
+<p style="Normal" xid="56" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:es-ES; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">B) </c></p>
+<p style="Normal" xid="57" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:es-ES; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">C) </c></p>
+<p style="Normal" xid="58" props="margin-top:0.0000in; margin-left:0.0000in; text-indent:0.0000in; dom-dir:ltr; margin-bottom:0.0000in; line-height:1.000000; text-align:left; margin-right:0.0000in"><c props="font-family:Times New Roman; font-size:12pt; lang:es-ES; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">D) </c></p>
+<p level="1" listid="1000" style="Numbered Heading 2" xid="24" props="font-family:Times New Roman; font-style:normal; margin-left:0.0000in; start-value:1; text-decoration:none; font-weight:normal; text-position:normal; list-delim:%L.; lang:es-ES; list-style:Numbered List; color:000000; text-indent:0.0000in; font-size:12pt; field-font:DejaVu Sans"><c props="list-tag:1003"></c><field type="list_label" xid="42" props="width:0in; font-family:DejaVu Sans; display:inline; font-style:normal; font-weight:bold; bgcolor:transparent; lang:es-ES; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:14pt; height:0in; list-style:Numbered List; font-stretch:normal"></field><c props="width:0in; font-family:DejaVu Sans; display:inline; font-style:normal; font-weight:bold; bgcolor:transparent; lang:es-ES; text-position:normal; text-transform:none; homogeneous:1; color:000000; font-variant:normal; text-decoration:none; font-size:14pt; height:0in; list-style:Numbered List; font-stretch:normal">	</c>Ejercicio 4<c></c></p>
+<p style="Normal" xid="59" props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:es-ES"><c props="font-family:Times New Roman; font-size:12pt; color:000000; text-decoration:none; text-position:normal; font-weight:normal; font-style:normal; lang:es-ES">A)</c></p>
+<p style="Normal" xid="60" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:es-ES; margin-bottom:0.0000in; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; margin-right:0.0000in; text-decoration:none; text-align:left; line-height:1.000000; font-size:12pt"><c props="font-family:Times New Roman; font-size:12pt; lang:es-ES; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">B) </c></p>
+<p style="Normal" xid="61" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:es-ES; margin-bottom:0.0000in; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; margin-right:0.0000in; text-decoration:none; text-align:left; line-height:1.000000; font-size:12pt"><c props="font-family:Times New Roman; font-size:12pt; lang:es-ES; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">C) </c></p>
+<p style="Normal" xid="62" props="font-family:Times New Roman; dom-dir:ltr; font-style:normal; margin-left:0.0000in; lang:es-ES; margin-bottom:0.0000in; text-indent:0.0000in; text-position:normal; margin-top:0.0000in; font-weight:normal; margin-right:0.0000in; text-decoration:none; text-align:left; line-height:1.000000; font-size:12pt"><c props="font-family:Times New Roman; font-size:12pt; lang:es-ES; text-position:normal; font-weight:normal; font-style:normal; text-decoration:none">D) </c></p>
+</section>
+</abiword>

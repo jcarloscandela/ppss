@@ -1,0 +1,4 @@
+TEma 2 - CajaBlanca
+Objetivo: asegurarnos de que todas las líneas de del código son probados y que todas las condiciones se ejecutan en sus casos V/F
+CC: Cota máxima de nº de caminos independientes
+Camino Independiente: cuando alguno de sus nodos o aristas, no se encuentran en ningun otro camino

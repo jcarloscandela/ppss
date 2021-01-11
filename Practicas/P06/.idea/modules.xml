@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/factura/factura.iml" filepath="$PROJECT_DIR$/factura/factura.iml" />
+      <module fileurl="file://$PROJECT_DIR$/gestorLlamadasMocks/gestorLlamadasMocks.iml" filepath="$PROJECT_DIR$/gestorLlamadasMocks/gestorLlamadasMocks.iml" />
+      <module fileurl="file://$PROJECT_DIR$/listados/listados.iml" filepath="$PROJECT_DIR$/listados/listados.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webClient/src/main/main.iml" filepath="$PROJECT_DIR$/webClient/src/main/main.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webClient/src/main/main1.iml" filepath="$PROJECT_DIR$/webClient/src/main/main1.iml" />
+      <module fileurl="file://$PROJECT_DIR$/premio/premio.iml" filepath="$PROJECT_DIR$/premio/premio.iml" />
+      <module fileurl="file://$PROJECT_DIR$/reserva/reserva.iml" filepath="$PROJECT_DIR$/reserva/reserva.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webClient/src/test/test.iml" filepath="$PROJECT_DIR$/webClient/src/test/test.iml" />
+      <module fileurl="file://$PROJECT_DIR$/webClient/src/test/test1.iml" filepath="$PROJECT_DIR$/webClient/src/test/test1.iml" />
+    </modules>
+  </component>
+</project>
